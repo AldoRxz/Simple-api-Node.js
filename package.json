@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "1-http.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "node --watch 1-http.js",
+    "dev:2": "node --watch 2-routing.js",
+    "dev:3": "node --watch 3-express.js"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "4.21.1"
+  }
 }
